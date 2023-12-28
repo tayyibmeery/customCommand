@@ -1,0 +1,6 @@
+composer self-update
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+composer dump-autoload
+php artisan serve
